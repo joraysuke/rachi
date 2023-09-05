@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap');
+
+
 *{
     margin: 0%;
     padding: 0%;
@@ -19,4 +23,39 @@ ul {
 }
 li{
     padding:0 1rem 0 1rem
+}
+
+section#banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section#banner div h1,p {
+    font-size: 3rem;
+    font-family: "Sora", sans-serif, Arial;
+    font-weight: 500;
+}
+button#btn-register {
+    background-color:#0F9AFE;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: #0F9AFE80 2px 2px 0px 0px;
+    font-family: "Inter", sans-serif, Arial;
+    font-weight: 500;
+    color: #ffff;
+    width: 12rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button#btn-register:hover{
+    background-color: #30668d;
+}
+
+div#text-btn-banner {
+    display:flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
